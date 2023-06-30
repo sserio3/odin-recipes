@@ -2,6 +2,10 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+    margin-bottom: 30px;
+}
+
 h2 {
     font-size: 24px;
     text-decoration: underline;
@@ -11,6 +15,18 @@ h4 {
     font-size: 16px;
 }
 
+h2, h4 {
+    margin: 20px 0px 10px 0px;
+}
+
+li {
+   padding-bottom: 5px; 
+}
+
 p, li {
     font-size: 15px;
+}
+
+p, ul, ol {
+    margin: 5px 0px 0px 0px;
 }
